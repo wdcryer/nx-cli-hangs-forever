@@ -5,3 +5,6 @@ To reproduce the issue:
 3. Run `pnpm install`.
 4. Run `pnpm nx report` or `pnpm build`.
 5. Observe that the command hangs indefinitely.
+6. Delete the code in `apps/docs/src/__tests__/some.test.mjs`.
+7. Run `pnpm nx report` or `pnpm build`.
+8. Observe that the command works as expected.
