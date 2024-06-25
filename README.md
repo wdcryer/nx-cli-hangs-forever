@@ -1,4 +1,4 @@
-To reproduce the issue:
+This demonstrates an issue in which Nx CLI commands hang forever. To reproduce the issue:
 
 1. Use Node 20. Version managers like NVM or FNM can be used to install the correct version.
 2. Run `corepack enable` to install the correct `pnpm` version.
